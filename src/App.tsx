@@ -22,7 +22,7 @@ const TopLogo = () => {
         <div className="w-12 h-12 rounded-full border border-white/50 flex items-center justify-center backdrop-blur-sm bg-white/10">
           <Wind className="w-6 h-6 stroke-1" />
         </div>
-        <span className="text-xl font-light tracking-widest uppercase">Corporate Spa</span>
+        <span className="text-xl font-light tracking-widest uppercase">An-Mo</span>
       </div>
     </motion.div>
   );
