@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --font-assistant: "Assistant", sans-serif;
+}
+
+body {
+  font-family: var(--font-assistant);
+}
+
+/* Hide scrollbar for clean look */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #d6d3d1;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a29e;
+}
