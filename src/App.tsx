@@ -133,6 +133,12 @@ const Services = () => {
       title: "טיפולי שדה",
       desc: "טיפולים קצרים וממוקדים לשחרור צוואר, כתפיים וגב עליון.",
       icon: <Sparkles className="w-8 h-8 stroke-1" />,
+      img: "images/back-with-2-hands.jpg"
+      
+    },    {
+      title: "טיפולי שדה",
+      desc: "טיפולים קצרים וממוקדים לשחרור צוואר, כתפיים וגב עליון.",
+      icon: <Sparkles className="w-8 h-8 stroke-1" />,
       img: "https://picsum.photos/seed/massage2/600/800"
     },
     {
@@ -140,12 +146,6 @@ const Services = () => {
       desc: "זולה מעוצבת, מחצלות, כריות ואווירה רוחנית ומרגיעה.",
       icon: <Tent className="w-8 h-8 stroke-1" />,
       img: "https://picsum.photos/seed/tent/600/800"
-    },
-    {
-      title: "אירוח ושתייה",
-      desc: "חליטות תה קרות וחמות, מים בטעמים וכיבוד קל ובריא.",
-      icon: <Coffee className="w-8 h-8 stroke-1" />,
-      img: "https://picsum.photos/seed/tea/600/800"
     }
   ];
 
@@ -304,35 +304,35 @@ const Contact = () => {
         </motion.p>
         
         <div className="flex flex-wrap justify-center gap-8 md:gap-12 mb-20">
-          <motion.a whileHover={{ scale: 1.1, y: -5 }} href="https://wa.me/1234567890" className="flex flex-col items-center gap-4 group">
+          <motion.a whileHover={{ scale: 1.1, y: -5 }} href="https://wa.me/972506460848" className="flex flex-col items-center gap-4 group">
             <div className="w-20 h-20 rounded-full bg-stone-800 flex items-center justify-center group-hover:bg-stone-700 transition-colors shadow-lg">
               <MessageCircle className="w-8 h-8 stroke-1" />
             </div>
             <span className="font-light text-stone-300 group-hover:text-white transition-colors">WhatsApp</span>
           </motion.a>
           
-          <motion.a whileHover={{ scale: 1.1, y: -5 }} href="tel:+972501234567" className="flex flex-col items-center gap-4 group">
+          <motion.a whileHover={{ scale: 1.1, y: -5 }} href="tel:+972506460848" className="flex flex-col items-center gap-4 group">
             <div className="w-20 h-20 rounded-full bg-stone-800 flex items-center justify-center group-hover:bg-stone-700 transition-colors shadow-lg">
               <Phone className="w-8 h-8 stroke-1" />
             </div>
             <span className="font-light text-stone-300 group-hover:text-white transition-colors">טלפון</span>
           </motion.a>
           
-          <motion.a whileHover={{ scale: 1.1, y: -5 }} href="mailto:hello@example.com" className="flex flex-col items-center gap-4 group">
+          <motion.a whileHover={{ scale: 1.1, y: -5 }} href="mailto:maayan.mf4@gmail.com" className="flex flex-col items-center gap-4 group">
             <div className="w-20 h-20 rounded-full bg-stone-800 flex items-center justify-center group-hover:bg-stone-700 transition-colors shadow-lg">
               <Mail className="w-8 h-8 stroke-1" />
             </div>
             <span className="font-light text-stone-300 group-hover:text-white transition-colors">אימייל</span>
           </motion.a>
           
-          <motion.a whileHover={{ scale: 1.1, y: -5 }} href="#" className="flex flex-col items-center gap-4 group">
+          <motion.a whileHover={{ scale: 1.1, y: -5 }} href="https://www.instagram.com/maayanferrera/" className="flex flex-col items-center gap-4 group">
             <div className="w-20 h-20 rounded-full bg-stone-800 flex items-center justify-center group-hover:bg-stone-700 transition-colors shadow-lg">
               <Instagram className="w-8 h-8 stroke-1" />
             </div>
             <span className="font-light text-stone-300 group-hover:text-white transition-colors">Instagram</span>
           </motion.a>
           
-          <motion.a whileHover={{ scale: 1.1, y: -5 }} href="#" className="flex flex-col items-center gap-4 group">
+          <motion.a whileHover={{ scale: 1.1, y: -5 }} href="https://www.facebook.com/smile.smilelos.1" className="flex flex-col items-center gap-4 group">
             <div className="w-20 h-20 rounded-full bg-stone-800 flex items-center justify-center group-hover:bg-stone-700 transition-colors shadow-lg">
               <Facebook className="w-8 h-8 stroke-1" />
             </div>
